@@ -1,0 +1,30 @@
+.listItemContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: center;
+}
+.img {
+  margin: 0 auto;
+}
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.status {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
